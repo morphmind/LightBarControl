@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Buy Me a Coffee
+    url: https://buymeacoffee.com/morphmind
+    about: Support the project by buying me a coffee!
+  - name: Discussions
+    url: https://github.com/kaanyildizkan/LightBarControl/discussions
+    about: Ask questions and share ideas in Discussions

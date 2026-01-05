@@ -1,0 +1,37 @@
+name: YeelightController
+options:
+  bundleIdPrefix: com.yeelight
+  deploymentTarget:
+    macOS: "13.0"
+  xcodeVersion: "15.0"
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+
+targets:
+  YeelightController:
+    type: application
+    platform: macOS
+    sources:
+      - path: YeelightController
+        excludes:
+          - "*.plist"
+          - "*.entitlements"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.yeelight.controller
+        INFOPLIST_FILE: YeelightController/Info.plist
+        CODE_SIGN_ENTITLEMENTS: YeelightController/YeelightController.entitlements
+        PRODUCT_NAME: "Yeelight Controller"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        COMBINE_HIDPI_IMAGES: YES
+        MACOSX_DEPLOYMENT_TARGET: "13.0"
+        LD_RUNPATH_SEARCH_PATHS:
+          - "$(inherited)"
+          - "@executable_path/../Frameworks"
+        ENABLE_HARDENED_RUNTIME: NO
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_IDENTITY: "-"

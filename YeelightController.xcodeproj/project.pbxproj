@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003B8C6FE54C9E8AE03648C7 /* DeviceDiscoveryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41CD6DE0AF748417E6A232D8 /* DeviceDiscoveryService.swift */; };
+		01B14EC842E178AD454E25A3 /* PresetListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A039287DCF86D3B954E4C936 /* PresetListView.swift */; };
+		367C4814C784D88DF51C304F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FB209EBBA3A8A892642CF0 /* SettingsView.swift */; };
+		3BDF43D1D2BE607EB68D3969 /* YeelightDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587419EDDBF90FB7CF44D0BA /* YeelightDevice.swift */; };
+		40953DDA8E5C65C191794861 /* YeelightAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4735F4FEBE3159339A77B3FD /* YeelightAPIService.swift */; };
+		5C71FC91365A701FD27087AA /* AmbientLightControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B2C87B0B3D9C874BBC8401 /* AmbientLightControlView.swift */; };
+		6BBE7BB4B0DBC5BAD767C6F8 /* LightPreset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F369F5AC3387E074BD68981 /* LightPreset.swift */; };
+		7BA2C0A5D62A4ADC525AA6E7 /* YeelightResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83123D0F857F692C353DE7A6 /* YeelightResponse.swift */; };
+		7C36EE59653360DE1483EFCC /* DiscoveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDC1FC03C7CFE14E5DF9286 /* DiscoveryView.swift */; };
+		821331D301D68E0C3822D9A8 /* DeviceState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5540BAD98C15B4A7F52AE37 /* DeviceState.swift */; };
+		918D3DAF769E42E45FAB8E78 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED45EF80722D1CD264D2DB7D /* TimerView.swift */; };
+		99BD32757F12EDAA1155F7C6 /* YeelightCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBC68EE8BC07A07248D8785 /* YeelightCommand.swift */; };
+		A0BBE125E5C61517BFBF9B8E /* YeelightConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75953F1B85F639E9629F030E /* YeelightConnectionManager.swift */; };
+		A3F1699BDF8018F085C441C5 /* MenuBarPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78991EB69B81E0BD536A1EF2 /* MenuBarPopoverView.swift */; };
+		A5987BDD8FED81ACF4E23078 /* YeelightControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4A3A3D80272F4375A575AF /* YeelightControllerApp.swift */; };
+		AAA111111111111111111111 /* LightMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB111111111111111111111 /* LightMode.swift */; };
+		AAA222222222222222222222 /* LightSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB222222222222222222222 /* LightSchedule.swift */; };
+		AAA333333333333333333333 /* SystemEventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB333333333333333333333 /* SystemEventMonitor.swift */; };
+		AAA444444444444444444444 /* ScheduleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB444444444444444444444 /* ScheduleManager.swift */; };
+		AAA555555555555555555555 /* QuickModesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB555555555555555555555 /* QuickModesView.swift */; };
+		B7B07E816A5916D8B5D485B3 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916C84A42FA216E1281C0367 /* DeviceViewModel.swift */; };
+		CCC111111111111111111111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDD111111111111111111111 /* Assets.xcassets */; };
+		D7D5C6FDBA416FB76968D956 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DED29660F2EAFA4DF65CF9 /* SettingsService.swift */; };
+		E88A593E3FF13A2632AD3060 /* MainLightControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83608D289DCA7031C2FCF8BA /* MainLightControlView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04B2C87B0B3D9C874BBC8401 /* AmbientLightControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbientLightControlView.swift; sourceTree = "<group>"; };
+		3E4A3A3D80272F4375A575AF /* YeelightControllerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeelightControllerApp.swift; sourceTree = "<group>"; };
+		41CD6DE0AF748417E6A232D8 /* DeviceDiscoveryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDiscoveryService.swift; sourceTree = "<group>"; };
+		4735F4FEBE3159339A77B3FD /* YeelightAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeelightAPIService.swift; sourceTree = "<group>"; };
+		4BBC68EE8BC07A07248D8785 /* YeelightCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeelightCommand.swift; sourceTree = "<group>"; };
+		587419EDDBF90FB7CF44D0BA /* YeelightDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeelightDevice.swift; sourceTree = "<group>"; };
+		5F369F5AC3387E074BD68981 /* LightPreset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightPreset.swift; sourceTree = "<group>"; };
+		75953F1B85F639E9629F030E /* YeelightConnectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeelightConnectionManager.swift; sourceTree = "<group>"; };
+		78991EB69B81E0BD536A1EF2 /* MenuBarPopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarPopoverView.swift; sourceTree = "<group>"; };
+		7EDC1FC03C7CFE14E5DF9286 /* DiscoveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryView.swift; sourceTree = "<group>"; };
+		83123D0F857F692C353DE7A6 /* YeelightResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YeelightResponse.swift; sourceTree = "<group>"; };
+		83608D289DCA7031C2FCF8BA /* MainLightControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLightControlView.swift; sourceTree = "<group>"; };
+		916C84A42FA216E1281C0367 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
+		91DED29660F2EAFA4DF65CF9 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		A039287DCF86D3B954E4C936 /* PresetListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetListView.swift; sourceTree = "<group>"; };
+		A4FB209EBBA3A8A892642CF0 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A5540BAD98C15B4A7F52AE37 /* DeviceState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceState.swift; sourceTree = "<group>"; };
+		AEEA8A9F5F2D02511899D320 /* LightBar Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LightBar Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBB111111111111111111111 /* LightMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightMode.swift; sourceTree = "<group>"; };
+		BBB222222222222222222222 /* LightSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSchedule.swift; sourceTree = "<group>"; };
+		BBB333333333333333333333 /* SystemEventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemEventMonitor.swift; sourceTree = "<group>"; };
+		BBB444444444444444444444 /* ScheduleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleManager.swift; sourceTree = "<group>"; };
+		BBB555555555555555555555 /* QuickModesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickModesView.swift; sourceTree = "<group>"; };
+		DDD111111111111111111111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED45EF80722D1CD264D2DB7D /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		2AE1AF439DE4FACD101CABA8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A5540BAD98C15B4A7F52AE37 /* DeviceState.swift */,
+				5F369F5AC3387E074BD68981 /* LightPreset.swift */,
+				BBB111111111111111111111 /* LightMode.swift */,
+				BBB222222222222222222222 /* LightSchedule.swift */,
+				4BBC68EE8BC07A07248D8785 /* YeelightCommand.swift */,
+				587419EDDBF90FB7CF44D0BA /* YeelightDevice.swift */,
+				83123D0F857F692C353DE7A6 /* YeelightResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		367DD523115D1FA71BE2143C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04B2C87B0B3D9C874BBC8401 /* AmbientLightControlView.swift */,
+				7EDC1FC03C7CFE14E5DF9286 /* DiscoveryView.swift */,
+				83608D289DCA7031C2FCF8BA /* MainLightControlView.swift */,
+				78991EB69B81E0BD536A1EF2 /* MenuBarPopoverView.swift */,
+				A039287DCF86D3B954E4C936 /* PresetListView.swift */,
+				BBB555555555555555555555 /* QuickModesView.swift */,
+				A4FB209EBBA3A8A892642CF0 /* SettingsView.swift */,
+				ED45EF80722D1CD264D2DB7D /* TimerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA9D5B8E599ECF7F05C9D7A8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				41CD6DE0AF748417E6A232D8 /* DeviceDiscoveryService.swift */,
+				BBB444444444444444444444 /* ScheduleManager.swift */,
+				91DED29660F2EAFA4DF65CF9 /* SettingsService.swift */,
+				BBB333333333333333333333 /* SystemEventMonitor.swift */,
+				4735F4FEBE3159339A77B3FD /* YeelightAPIService.swift */,
+				75953F1B85F639E9629F030E /* YeelightConnectionManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		DAF95E39CD02308EC2CE19F7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				916C84A42FA216E1281C0367 /* DeviceViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DBAA0153934EFB9B68ED4B49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEEA8A9F5F2D02511899D320 /* LightBar Control.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1BDB91F9D86E2F4C3E251D1 = {
+			isa = PBXGroup;
+			children = (
+				FADDBB94BC9F4CD69A143A95 /* YeelightController */,
+				DBAA0153934EFB9B68ED4B49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADDBB94BC9F4CD69A143A95 /* YeelightController */ = {
+			isa = PBXGroup;
+			children = (
+				3E4A3A3D80272F4375A575AF /* YeelightControllerApp.swift */,
+				DDD111111111111111111111 /* Assets.xcassets */,
+				2AE1AF439DE4FACD101CABA8 /* Models */,
+				CA9D5B8E599ECF7F05C9D7A8 /* Services */,
+				DAF95E39CD02308EC2CE19F7 /* ViewModels */,
+				367DD523115D1FA71BE2143C /* Views */,
+			);
+			path = YeelightController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D27BC8E607708B730E67F1D /* YeelightController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C6EB417A5029384F7E3EACC /* Build configuration list for PBXNativeTarget "YeelightController" */;
+			buildPhases = (
+				E7A68A98C5D5AAEFA15FADFA /* Sources */,
+				EEE111111111111111111111 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YeelightController;
+			packageProductDependencies = (
+			);
+			productName = YeelightController;
+			productReference = AEEA8A9F5F2D02511899D320 /* LightBar Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C06EA0A74CB7F233F66002A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					0D27BC8E607708B730E67F1D = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D91769E93BB07A09F3483D77 /* Build configuration list for PBXProject "YeelightController" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E1BDB91F9D86E2F4C3E251D1;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D27BC8E607708B730E67F1D /* YeelightController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE111111111111111111111 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC111111111111111111111 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7A68A98C5D5AAEFA15FADFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C71FC91365A701FD27087AA /* AmbientLightControlView.swift in Sources */,
+				003B8C6FE54C9E8AE03648C7 /* DeviceDiscoveryService.swift in Sources */,
+				821331D301D68E0C3822D9A8 /* DeviceState.swift in Sources */,
+				B7B07E816A5916D8B5D485B3 /* DeviceViewModel.swift in Sources */,
+				7C36EE59653360DE1483EFCC /* DiscoveryView.swift in Sources */,
+				AAA111111111111111111111 /* LightMode.swift in Sources */,
+				6BBE7BB4B0DBC5BAD767C6F8 /* LightPreset.swift in Sources */,
+				AAA222222222222222222222 /* LightSchedule.swift in Sources */,
+				E88A593E3FF13A2632AD3060 /* MainLightControlView.swift in Sources */,
+				A3F1699BDF8018F085C441C5 /* MenuBarPopoverView.swift in Sources */,
+				01B14EC842E178AD454E25A3 /* PresetListView.swift in Sources */,
+				AAA555555555555555555555 /* QuickModesView.swift in Sources */,
+				AAA444444444444444444444 /* ScheduleManager.swift in Sources */,
+				D7D5C6FDBA416FB76968D956 /* SettingsService.swift in Sources */,
+				367C4814C784D88DF51C304F /* SettingsView.swift in Sources */,
+				AAA333333333333333333333 /* SystemEventMonitor.swift in Sources */,
+				918D3DAF769E42E45FAB8E78 /* TimerView.swift in Sources */,
+				40953DDA8E5C65C191794861 /* YeelightAPIService.swift in Sources */,
+				99BD32757F12EDAA1155F7C6 /* YeelightCommand.swift in Sources */,
+				A0BBE125E5C61517BFBF9B8E /* YeelightConnectionManager.swift in Sources */,
+				A5987BDD8FED81ACF4E23078 /* YeelightControllerApp.swift in Sources */,
+				3BDF43D1D2BE607EB68D3969 /* YeelightDevice.swift in Sources */,
+				7BA2C0A5D62A4ADC525AA6E7 /* YeelightResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		03266394B08CAD271CD32E82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YeelightController/YeelightController.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 8SBVG2XBZ6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				INFOPLIST_FILE = YeelightController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yildizkan.lightbarcontrol;
+				PRODUCT_NAME = "LightBar Control";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8A38AD3F9E7BDA0C17F884E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8SBVG2XBZ6;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Debug;
+		};
+		DA0E6B026B12269CE9554E6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YeelightController/YeelightController.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = 8SBVG2XBZ6;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = YES;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = YES;
+				INFOPLIST_FILE = YeelightController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yildizkan.lightbarcontrol;
+				PRODUCT_NAME = "LightBar Control";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FF21EC4C421885BC01B68955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8SBVG2XBZ6;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C6EB417A5029384F7E3EACC /* Build configuration list for PBXNativeTarget "YeelightController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03266394B08CAD271CD32E82 /* Debug */,
+				DA0E6B026B12269CE9554E6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D91769E93BB07A09F3483D77 /* Build configuration list for PBXProject "YeelightController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A38AD3F9E7BDA0C17F884E3 /* Debug */,
+				FF21EC4C421885BC01B68955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C06EA0A74CB7F233F66002A0 /* Project object */;
+}
